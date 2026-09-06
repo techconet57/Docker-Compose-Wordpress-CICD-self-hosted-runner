@@ -1,0 +1,24 @@
+name: WordPress CI/CD
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+
+  deploy:
+    runs-on: self-hosted
+
+    steps:
+      - name: Deploy to EC2
+          run: |
+            cd /home/ec2-user/projects/Docker-Compose-Wordpress-CICD-deployment
+
+            git pull origin main
+
+            docker compose pull
+
+            docker compose up -d
+
+            docker compose ps
