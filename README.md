@@ -84,3 +84,10 @@ It provides hands-on experience with:
 By completing this project, you can gain practical experience in building a simple CI/CD pipeline where a developer pushes code to GitHub and the application is automatically deployed to an AWS EC2 server using Docker Compose.
 
 This project can also serve as a foundation for more advanced DevOps practices such as **Docker image registries, reverse proxies, HTTPS, monitoring, secrets management, Terraform, Kubernetes, and production-grade CI/CD pipelines**.
+
+👨‍💻 Author
+**Shyam Raut**
+
+GitHub: techconet57
+
+This project is created for learning, practice, and DevOps portfolio purposes.
